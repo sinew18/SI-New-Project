@@ -6,4 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".SplashScreen">
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/rollfilm"
+            android:layout_marginTop="-300dp"
+            android:layout_marginHorizontal="50dp"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="53dp"
+            android:background="@drawable/btnget"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="571dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="2dp"
+            android:text="@string/text_bawah"
+            android:textAlignment="center"
+            android:textColor="#FFFEFE"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="71dp"
+            tools:layout_editor_absoluteY="632dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

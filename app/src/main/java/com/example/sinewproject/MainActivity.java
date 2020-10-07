@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
         addData();
 
-        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        RecyclerAdapter adapter = new RecyclerAdapter(filmArray);
+        RecyclerView recyclerView = findViewById(R.id.recycler_view);
+        RecyclerAdapter adapter = new RecyclerAdapter(this, filmArray);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(MainActivity.this);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);

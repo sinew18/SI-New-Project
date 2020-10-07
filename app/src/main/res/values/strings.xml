@@ -2,4 +2,7 @@
     <string name="app_name">SI New Project</string>
     <string name="text_bawah"><![CDATA[>A place for you to get know about the latest movies info]]></string>
     <string name="image_app_desc">An Image for Splash Screen</string>
+    <string name="nama_barang_detail_act">Nama Barang</string>
+    <string name="tahun_keluar_detail_act">Tahun Keluar</string>
+    <string name="durasi_menit_detail_act">Durasi (Menit)</string>
 </resources>

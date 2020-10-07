@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:targetApi="donut">
-        <activity android:name=".DetailRecycler"></activity>
+        <activity android:name=".DetailRecycler" />
         <activity
             android:name=".SplashScreen"
             android:theme="@style/SplashTheme">

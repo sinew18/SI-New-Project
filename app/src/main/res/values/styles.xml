@@ -8,4 +8,11 @@
     </style>
 
     <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="Theme.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.PopularOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 </resources>

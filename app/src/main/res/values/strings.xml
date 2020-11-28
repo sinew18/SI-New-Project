@@ -1,8 +1,18 @@
 <resources>
-    <string name="app_name">SI New Project</string>
+    <string name="app_name">MovieAppTry</string>
+    <string name="action_settings">Settings</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="overview">Overview</string>
+    <string name="rating">User Rating</string>
+    <string name="release_date">Release Date</string>
+    <string name="pref_sort_order_label">Sort Order</string>
+    <string name="pref_sort_order_key">sortOrder</string>
+    <string name="pref_popular">Most Popular</string>
+    <string name="pref_highest_rated">Highest Rated</string>
     <string name="text_bawah"><![CDATA[>A place for you to get know about the latest movies info]]></string>
     <string name="image_app_desc">An Image for Splash Screen</string>
-    <string name="nama_barang_detail_act">Nama Barang</string>
-    <string name="tahun_keluar_detail_act">Tahun Keluar</string>
-    <string name="durasi_menit_detail_act">Durasi (Menit)</string>
+    <string name="content_description_thumbnail">Movie Thumbnail</string>
+    <string name="favorite">Favorite Movies</string>
+    <string name="notification_title">Open Your Movie Application</string>
 </resources>
